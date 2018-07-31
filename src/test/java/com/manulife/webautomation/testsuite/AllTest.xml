@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTest" thread-count="1" verbose="3">
+	<listeners>
+		<listener class-name="com.manulife.webautomation.framework.listener.ExecutionListener"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="./SubmitClaimSuite.xml" />
+	</suite-files>
+</suite>
+
